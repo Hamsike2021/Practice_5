@@ -12,4 +12,5 @@ def sogl(s): # для количества согласных
       k += 1
   return k
 s = input().lower()
-print(glas(s))
+print(glas(s)) # гласные
+print(sogl(s)) # согласные
